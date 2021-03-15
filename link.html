@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<style>
+	li{
+		color:#E81216;
+/*		background: #1A2AD9;*/
+		font-size: 20px;
+		line-height: 1.5em;
+		list-style-type: none;
+		list-style-image: url("Apps-preferences-desktop-icons-icon.png");
+		
+	}	
+/*
+	a:link{
+		text-decoration: none;
+	}
+*/
+/*text-decoration意指超連結，none不要有底線*/
+/*
+	a:visited{
+		color:#EF1B1F
+	}
+*/
+/*visited滑鼠移動到字體上面拜訪時，會變更顏色*/
+/*
+	a:hover{
+		text-decoration: underline;
+		color:#f00;
+	}
+*/
+/*hover滑鼠點了之後的顏色*/
+/*
+	a:active{
+		color:#BCEB2B;
+	}
+*/
+/*	滑鼠按著的時候的顏色展現*/
+/*link visited visited hover 以上四個項目一定要有順序存在，否則無法改變超連結的顏色*/
+	a, a:visited{
+		text-decoration: none;
+		color:#EF1B1F
+	}
+	a:hover, a:active{
+		text-decoration: underline;
+		color:#f00;
+	}
+	.link2 a, .link2 a:visited{
+		text-decoration: none;
+		color:#10F1A8;
+	}
+	.link2 a:hover, .link2 a:active{
+		text-decoration: underline;
+		color:#E9BE0A;
+	}
+</style>
+</head>
+
+<body>
+	<!--ul>li{ITEM$}*5-->
+	<ul>
+		<li><a href="#">ITEM1</a></li>
+		<li class="link2"><a href="#">ITEM2</a></li>
+		<li><a href="#">ITEM3</a></li>
+		<li><a href="#">ITEM4</a></li>
+		<li><a href="#">ITEM5</a></li>
+	</ul>
+	<P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro enim distinctio provident nam consectetur at accusantium praesentium totam ratione necessitatibus magni ullam, recusandae eaque eius laboriosam delectus ducimus, consequatur. Assumenda.</P>
+</body>
+</html>
